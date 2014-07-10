@@ -142,7 +142,7 @@ $sendgrid->newsletter_lists_email_add($list , $data);
  *			);
  * must use email and name fields (other fileds are optional)
  */
-$sendgrid->newsletter_lists_email_edit_helper($list , $email , $data)
+$sendgrid->newsletter_lists_email_edit_helper($list , $email , $data);
 
 
 /**
